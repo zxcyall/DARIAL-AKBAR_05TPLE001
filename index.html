@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Karyawan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .jumbotron-custom {
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            color: white;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+        <a class="navbar-brand" href="#">Manajemen Karyawan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="karyawan.html">Data Karyawan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jabatan.html">Jabatan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="divisi.html">Divisi</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-custom text-center">
+        <h1 class="display-4">Selamat Datang di Sistem Manajemen Karyawan</h1>
+        <p class="lead">Kelola data karyawan, jabatan, dan divisi dengan mudah dan efisien.</p>
+        <a class="btn btn-light btn-lg" href="karyawan.html" role="button">Mulai Sekarang</a>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Fitur-Fitur Sistem</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="a.jpg" class="card-img-top" alt="Data Karyawan">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Karyawan</h5>
+                        <p class="card-text">Menambahkan, mengubah, dan menghapus data karyawan dalam perusahaan Anda.</p>
+                        <a href="karyawan.html" class="btn btn-primary">Kelola Karyawan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="b.webp" class="card-img-top" alt="Data Jabatan">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Jabatan</h5>
+                        <p class="card-text">Mengelola jabatan yang ada di perusahaan dengan fitur pengelompokan dan hierarki.</p>
+                        <a href="jabatan.html" class="btn btn-primary">Kelola Jabatan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="c.jpg" class="card-img-top" alt="Data Divisi">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Divisi</h5>
+                        <p class="card-text">Mengelompokkan karyawan berdasarkan divisi untuk memudahkan manajemen tim.</p>
+                        <a href="divisi.html" class="btn btn-primary">Kelola Divisi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Sistem Manajemen Karyawan Darial Group. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
